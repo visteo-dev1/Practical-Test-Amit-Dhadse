@@ -1,0 +1,6 @@
+framework module Pods_PracticalTestAmitDhadse {
+  umbrella header "Pods-PracticalTestAmitDhadse-umbrella.h"
+
+  export *
+  module * { export * }
+}

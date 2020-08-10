@@ -1,0 +1,16 @@
+PODS:
+  - MMBannerLayout (5.0.8)
+
+DEPENDENCIES:
+  - MMBannerLayout
+
+SPEC REPOS:
+  trunk:
+    - MMBannerLayout
+
+SPEC CHECKSUMS:
+  MMBannerLayout: edc9bcf9826e066c482cb739d52d875eb406b199
+
+PODFILE CHECKSUM: 9d839f2d64603619a0d24eaa0ca74d8673139e9d
+
+COCOAPODS: 1.9.1
