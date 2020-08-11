@@ -43,25 +43,23 @@ class FirstViewController: UIViewController {
             layout.itemSize = iCollectionView.frame.insetBy(dx: 25, dy: 0).size
             layout.minimuAlpha = 1
         }
-        
+
         iMoneySpentView.layer.cornerRadius = 12
         iMonthView.layer.cornerRadius = 15
         iGroceryView.iImageView.image = #imageLiteral(resourceName: "Grocery")
         iRestaurantView.iImageView.image = #imageLiteral(resourceName: "Restaurant")
         iHouseHoldView.iImageView.image = #imageLiteral(resourceName: "HouseHold")
-        
+
         iGroceryView.iSpentOnLabel.text = "Groceries"
         iRestaurantView.iSpentOnLabel.text = "Restaurants"
         iHouseHoldView.iSpentOnLabel.text = "Household"
-        
+
         iGroceryView.iAmountSpentLable.text = "$653"
         iRestaurantView.iAmountSpentLable.text = "$405"
         iHouseHoldView.iAmountSpentLable.text = "$201"
-        
+
         iTabbarView.layer.cornerRadius = 36
-        
-        
-        
+
         parseData()
     }
 
@@ -85,7 +83,7 @@ class FirstViewController: UIViewController {
         let secondViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
 
         secondViewController.transitioningDelegate = self
-        
+
         switch aIndexPth.row {
         case 0:
             secondViewController.iDetails = accountDetails?[aIndexPth.row].allAccount
@@ -112,18 +110,17 @@ extension FirstViewController: UICollectionViewDataSource, UICollectionViewDeleg
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AccountCellIdentifier", for: indexPath) as? AccountCardCellCollectionViewCell else {
             fatalError("unable to create cell")
         }
-        
+
         switch indexPath.row {
         case 0:
-            cell.RefreshUI(aType: .allAccount, aDetails: (self.accountDetails?[indexPath.row].allAccount?.first)!)
+            cell.RefreshUI(aType: .allAccount, aDetails: (accountDetails?[indexPath.row].allAccount?.first)!)
         case 1:
-            cell.RefreshUI(aType: .westpac, aDetails: (self.accountDetails?[indexPath.row].westpac?.first)!)
+            cell.RefreshUI(aType: .westpac, aDetails: (accountDetails?[indexPath.row].westpac?.first)!)
         case 2:
-            cell.RefreshUI(aType: .commbank, aDetails: (self.accountDetails?[indexPath.row].commbank?.first)!)
+            cell.RefreshUI(aType: .commbank, aDetails: (accountDetails?[indexPath.row].commbank?.first)!)
         default:
             print("default")
         }
-        
 
         return cell
     }
