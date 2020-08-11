@@ -22,6 +22,7 @@ class FirstViewController: UIViewController {
     @IBOutlet var iGroceryView: MoneySpentViewContainerView!
     @IBOutlet var iRestaurantView: MoneySpentViewContainerView!
     @IBOutlet var iHouseHoldView: MoneySpentViewContainerView!
+    @IBOutlet var iTabbarView: UIView!
     var selectedCell: AccountCardCellCollectionViewCell?
     var selectedCellImageViewSnapshot: UIView?
     var animator: ViewAnimator?
@@ -56,6 +57,8 @@ class FirstViewController: UIViewController {
         iGroceryView.iAmountSpentLable.text = "$653"
         iRestaurantView.iAmountSpentLable.text = "$405"
         iHouseHoldView.iAmountSpentLable.text = "$201"
+        
+        iTabbarView.layer.cornerRadius = 36
         
         
         

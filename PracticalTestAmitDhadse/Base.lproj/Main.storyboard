@@ -301,14 +301,23 @@
                                 <color key="textColor" red="0.17254901959999999" green="0.70588235290000001" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qza-Vi-Lhf" customClass="TabBarView" customModule="PracticalTestAmitDhadse" customModuleProvider="target">
+                                <rect key="frame" x="20" y="764" width="374" height="73"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="Cmg-L3-Ulo"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="cvR-Zz-N1l" firstAttribute="top" secondItem="QuZ-Ul-ncG" secondAttribute="bottom" constant="35" id="2aa-A7-osW"/>
                             <constraint firstItem="QuZ-Ul-ncG" firstAttribute="leading" secondItem="Tyq-Gw-rJc" secondAttribute="leading" id="7KG-K9-DZc"/>
+                            <constraint firstItem="qza-Vi-Lhf" firstAttribute="leading" secondItem="Tyq-Gw-rJc" secondAttribute="leading" constant="20" id="CCe-9S-bpc"/>
                             <constraint firstItem="Tq3-6L-Vgd" firstAttribute="centerY" secondItem="TVx-Mw-q83" secondAttribute="centerY" id="JMf-78-8Xw"/>
                             <constraint firstItem="Hrr-kQ-h9e" firstAttribute="leading" secondItem="Tyq-Gw-rJc" secondAttribute="leading" constant="16" id="JOv-1N-fxt"/>
                             <constraint firstItem="Tyq-Gw-rJc" firstAttribute="trailing" secondItem="Tq3-6L-Vgd" secondAttribute="trailing" constant="20" id="MBj-bH-7Si"/>
+                            <constraint firstItem="Tyq-Gw-rJc" firstAttribute="trailing" secondItem="qza-Vi-Lhf" secondAttribute="trailing" constant="20" id="UOo-SI-A6G"/>
                             <constraint firstItem="TVx-Mw-q83" firstAttribute="leading" secondItem="Tyq-Gw-rJc" secondAttribute="leading" constant="16" id="ZXs-uC-okq"/>
                             <constraint firstItem="QuZ-Ul-ncG" firstAttribute="top" secondItem="Tyq-Gw-rJc" secondAttribute="top" constant="30" id="aOV-w3-41C"/>
                             <constraint firstItem="TVx-Mw-q83" firstAttribute="top" secondItem="cvR-Zz-N1l" secondAttribute="bottom" constant="80" id="d2z-Rx-HVa"/>
@@ -316,6 +325,7 @@
                             <constraint firstItem="Tyq-Gw-rJc" firstAttribute="trailing" secondItem="cvR-Zz-N1l" secondAttribute="trailing" id="rlo-gw-kR8"/>
                             <constraint firstItem="Tyq-Gw-rJc" firstAttribute="trailing" secondItem="Hrr-kQ-h9e" secondAttribute="trailing" constant="16" id="sBO-R4-9ak"/>
                             <constraint firstItem="QuZ-Ul-ncG" firstAttribute="trailing" secondItem="Tyq-Gw-rJc" secondAttribute="trailing" id="uGH-UP-IWb"/>
+                            <constraint firstItem="Tyq-Gw-rJc" firstAttribute="bottom" secondItem="qza-Vi-Lhf" secondAttribute="bottom" constant="25" id="ub7-3i-LYB"/>
                             <constraint firstItem="Hrr-kQ-h9e" firstAttribute="top" secondItem="TVx-Mw-q83" secondAttribute="bottom" constant="16.5" id="wKh-5X-lVe"/>
                             <constraint firstItem="cvR-Zz-N1l" firstAttribute="height" secondItem="YCn-Dg-ipf" secondAttribute="height" multiplier="0.25" id="z2M-Fa-aXh"/>
                         </constraints>
@@ -328,6 +338,7 @@
                         <outlet property="iMoneySpentView" destination="Hrr-kQ-h9e" id="hhP-0h-deK"/>
                         <outlet property="iMonthView" destination="vpe-jg-FLH" id="dHI-7R-Jxz"/>
                         <outlet property="iRestaurantView" destination="sIy-19-1IG" id="lPO-jZ-vcH"/>
+                        <outlet property="iTabbarView" destination="qza-Vi-Lhf" id="BqM-Kz-tHb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cW6-15-lQw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -407,7 +418,7 @@
                                 </constraints>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OHP-hY-x9j">
-                                <rect key="frame" x="20" y="139" width="374" height="627"/>
+                                <rect key="frame" x="20" y="134" width="374" height="627"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="geG-cm-JUh">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="627"/>
@@ -463,16 +474,26 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6A-qj-8c4" customClass="TabBarView" customModule="PracticalTestAmitDhadse" customModuleProvider="target">
+                                <rect key="frame" x="20" y="766" width="374" height="73"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="Gja-Kq-rFr"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274509803915" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JC0-fN-i3o" firstAttribute="trailing" secondItem="OHP-hY-x9j" secondAttribute="trailing" constant="20" id="3Sr-If-ri6"/>
+                            <constraint firstItem="d6A-qj-8c4" firstAttribute="leading" secondItem="JC0-fN-i3o" secondAttribute="leading" constant="20" id="Dvl-lf-Vmu"/>
                             <constraint firstItem="AKz-5K-EKS" firstAttribute="trailing" secondItem="JC0-fN-i3o" secondAttribute="trailing" id="GMF-EC-tbr"/>
                             <constraint firstItem="OHP-hY-x9j" firstAttribute="height" secondItem="FyS-IK-AAj" secondAttribute="height" multiplier="0.7" id="Smq-Pm-KGU"/>
                             <constraint firstItem="AKz-5K-EKS" firstAttribute="top" secondItem="JC0-fN-i3o" secondAttribute="top" constant="20" id="T5G-mH-5py"/>
+                            <constraint firstItem="JC0-fN-i3o" firstAttribute="trailing" secondItem="d6A-qj-8c4" secondAttribute="trailing" constant="20" id="TAR-wb-ZZn"/>
                             <constraint firstItem="OHP-hY-x9j" firstAttribute="leading" secondItem="JC0-fN-i3o" secondAttribute="leading" constant="20" id="fTc-gZ-btU"/>
                             <constraint firstItem="AKz-5K-EKS" firstAttribute="leading" secondItem="JC0-fN-i3o" secondAttribute="leading" id="tsT-y2-6qm"/>
-                            <constraint firstItem="OHP-hY-x9j" firstAttribute="top" secondItem="AKz-5K-EKS" secondAttribute="bottom" constant="35" id="txD-V8-Qdu"/>
+                            <constraint firstItem="OHP-hY-x9j" firstAttribute="top" secondItem="AKz-5K-EKS" secondAttribute="bottom" constant="30" id="txD-V8-Qdu"/>
+                            <constraint firstItem="JC0-fN-i3o" firstAttribute="bottom" secondItem="d6A-qj-8c4" secondAttribute="bottom" constant="23" id="vtF-il-I9A"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JC0-fN-i3o"/>
                     </view>
@@ -483,6 +504,7 @@
                         <outlet property="iGradientView" destination="OHP-hY-x9j" id="3lP-KD-WpK"/>
                         <outlet property="iLabel" destination="4R6-qa-fWs" id="n6C-WQ-U92"/>
                         <outlet property="iMonthView" destination="Y0k-Fq-Ern" id="cbo-Cr-3ii"/>
+                        <outlet property="iTabBar" destination="d6A-qj-8c4" id="T2R-9I-zUw"/>
                         <outlet property="iTableView" destination="72g-mW-8VF" id="fDy-kd-SU8"/>
                     </connections>
                 </viewController>

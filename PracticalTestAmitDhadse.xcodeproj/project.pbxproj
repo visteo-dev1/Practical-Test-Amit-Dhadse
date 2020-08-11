@@ -20,6 +20,8 @@
 		9C35DD0324E28C82009B77EB /* AccountDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DD0124E28C82009B77EB /* AccountDetailsTableViewCell.xib */; };
 		9C35DD0B24E2A088009B77EB /* MoneySpentViewContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DD0924E2A088009B77EB /* MoneySpentViewContainerView.xib */; };
 		9C35DD0C24E2A088009B77EB /* MoneySpentViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */; };
+		9C35DD0F24E2B9AD009B77EB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD0E24E2B9AD009B77EB /* TabBarView.swift */; };
+		9C35DD1124E2B9C5009B77EB /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DD1024E2B9C5009B77EB /* TabBarView.xib */; };
 		9C4C6F3B24E125DB00A95634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */; };
 		9C4C6F3D24E125DB00A95634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */; };
 		9C4C6F3F24E125DB00A95634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3E24E125DB00A95634 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		9C35DD0124E28C82009B77EB /* AccountDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		9C35DD0924E2A088009B77EB /* MoneySpentViewContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneySpentViewContainerView.xib; sourceTree = "<group>"; };
 		9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneySpentViewContainerView.swift; sourceTree = "<group>"; };
+		9C35DD0E24E2B9AD009B77EB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		9C35DD1024E2B9C5009B77EB /* TabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
 		9C4C6F3724E125DB00A95634 /* PracticalTestAmitDhadse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticalTestAmitDhadse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 		9C35DD0D24E2B7AF009B77EB /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				9C35DD0E24E2B9AD009B77EB /* TabBarView.swift */,
+				9C35DD1024E2B9C5009B77EB /* TabBarView.xib */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 			files = (
 				9C4C6F4724E125DC00A95634 /* LaunchScreen.storyboard in Resources */,
 				9C35DCFD24E27176009B77EB /* AccountDate.json in Resources */,
+				9C35DD1124E2B9C5009B77EB /* TabBarView.xib in Resources */,
 				9C4C6F5B24E12F8C00A95634 /* Main.storyboard in Resources */,
 				9C35DCEF24E23F19009B77EB /* AccountCardCellCollectionViewCell.xib in Resources */,
 				9C4C6F5824E12B9000A95634 /* AccountTableViewCell.xib in Resources */,
@@ -342,6 +349,7 @@
 			files = (
 				9C35DCE624E23C85009B77EB /* SecondViewController.swift in Sources */,
 				9C4C6F3F24E125DB00A95634 /* ViewController.swift in Sources */,
+				9C35DD0F24E2B9AD009B77EB /* TabBarView.swift in Sources */,
 				9C4C6F3B24E125DB00A95634 /* AppDelegate.swift in Sources */,
 				9C4C6F3D24E125DB00A95634 /* SceneDelegate.swift in Sources */,
 				9C35DD0C24E2A088009B77EB /* MoneySpentViewContainerView.swift in Sources */,

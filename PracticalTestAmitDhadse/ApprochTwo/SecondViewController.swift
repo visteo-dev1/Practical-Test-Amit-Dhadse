@@ -16,6 +16,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var iBackgroundImageView: UIImageView!
     @IBOutlet var iMonthView: UIView!
     @IBOutlet var iTableView: UITableView!
+    @IBOutlet var iTabBar: TabBarView!
     var iDetails: [Details]?
     var iCardType: AccountType?
 
@@ -36,6 +37,7 @@ class SecondViewController: UIViewController {
         //iCollectionView.register(UINib(nibName: "AccountCardCellCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "AccountCellIdentifier")
         
         iMonthView.layer.cornerRadius = 15
+        iTabBar.layer.cornerRadius = 36
         
         if let cardType = iCardType {
             if cardType == .allAccount {

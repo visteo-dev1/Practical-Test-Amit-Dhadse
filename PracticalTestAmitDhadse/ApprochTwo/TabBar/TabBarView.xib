@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabBarView" customModule="PracticalTestAmitDhadse" customModuleProvider="target">
+            <connections>
+                <outlet property="iContainerView" destination="iN0-l3-epB" id="fNy-x4-1yf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0R6-k9-A3F">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcB-zX-O9w">
+                            <rect key="frame" x="0.0" y="0.0" width="103.5" height="88"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="overview" translatesAutoresizingMaskIntoConstraints="NO" id="rbK-PZ-Ax4">
+                                    <rect key="frame" x="28" y="23.5" width="48" height="41"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="48" id="aty-sK-qLz"/>
+                                        <constraint firstAttribute="height" constant="41" id="fAr-42-gKE"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="rbK-PZ-Ax4" firstAttribute="centerX" secondItem="rcB-zX-O9w" secondAttribute="centerX" id="K2K-1r-k6T"/>
+                                <constraint firstItem="rbK-PZ-Ax4" firstAttribute="centerY" secondItem="rcB-zX-O9w" secondAttribute="centerY" id="MyT-aR-9JK"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgM-2E-pvn">
+                            <rect key="frame" x="103.5" y="0.0" width="103.5" height="88"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="budget" translatesAutoresizingMaskIntoConstraints="NO" id="fgE-Wq-3lU">
+                                    <rect key="frame" x="28" y="23.5" width="48" height="41"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="41" id="c8V-il-EDV"/>
+                                        <constraint firstAttribute="width" constant="48" id="x2w-SW-Tqo"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="fgE-Wq-3lU" firstAttribute="centerX" secondItem="qgM-2E-pvn" secondAttribute="centerX" id="69M-Ex-bHi"/>
+                                <constraint firstItem="fgE-Wq-3lU" firstAttribute="centerY" secondItem="qgM-2E-pvn" secondAttribute="centerY" id="yah-iz-3Bb"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XXA-24-kei">
+                            <rect key="frame" x="207" y="0.0" width="103.5" height="88"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lend" translatesAutoresizingMaskIntoConstraints="NO" id="j4n-IE-xWb">
+                                    <rect key="frame" x="28" y="23.5" width="48" height="41"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="41" id="D2O-9f-a3L"/>
+                                        <constraint firstAttribute="width" constant="48" id="Ts2-1C-iLr"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="j4n-IE-xWb" firstAttribute="centerX" secondItem="XXA-24-kei" secondAttribute="centerX" id="7hF-ep-aLg"/>
+                                <constraint firstItem="j4n-IE-xWb" firstAttribute="centerY" secondItem="XXA-24-kei" secondAttribute="centerY" id="T7O-SD-qWu"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBJ-SZ-2K5">
+                            <rect key="frame" x="310.5" y="0.0" width="103.5" height="88"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="Uf7-N9-Vd5">
+                                    <rect key="frame" x="28" y="23.5" width="48" height="41"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="41" id="9Pf-il-B63"/>
+                                        <constraint firstAttribute="width" constant="48" id="lck-kO-Gqt"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="Uf7-N9-Vd5" firstAttribute="centerY" secondItem="HBJ-SZ-2K5" secondAttribute="centerY" id="1KJ-97-cs2"/>
+                                <constraint firstItem="Uf7-N9-Vd5" firstAttribute="centerX" secondItem="HBJ-SZ-2K5" secondAttribute="centerX" id="ODg-LA-Siz"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0R6-k9-A3F" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FaI-Md-ddN"/>
+                <constraint firstItem="0R6-k9-A3F" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Hls-nP-Qqb"/>
+                <constraint firstAttribute="bottom" secondItem="0R6-k9-A3F" secondAttribute="bottom" id="YPA-w2-Uv3"/>
+                <constraint firstAttribute="trailing" secondItem="0R6-k9-A3F" secondAttribute="trailing" id="mTI-px-AHs"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="247.5" y="-383.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="budget" width="54" height="55"/>
+        <image name="lend" width="54" height="55"/>
+        <image name="overview" width="54" height="55"/>
+        <image name="profile" width="54" height="55"/>
+    </resources>
+</document>
