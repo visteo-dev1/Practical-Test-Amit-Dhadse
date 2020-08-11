@@ -6,6 +6,7 @@
 //  Copyright © 2020 Amit Dhadse. All rights reserved.
 //
 
+import AdvancedPageControl
 import MMBannerLayout
 import UIKit
 
@@ -23,6 +24,7 @@ class FirstViewController: UIViewController {
     @IBOutlet var iRestaurantView: MoneySpentViewContainerView!
     @IBOutlet var iHouseHoldView: MoneySpentViewContainerView!
     @IBOutlet var iTabbarView: UIView!
+    @IBOutlet var iPageViewController: AdvancedPageControlView!
     var selectedCell: AccountCardCellCollectionViewCell?
     var selectedCellImageViewSnapshot: UIView?
     var animator: ViewAnimator?
@@ -43,6 +45,9 @@ class FirstViewController: UIViewController {
             layout.itemSize = iCollectionView.frame.insetBy(dx: 25, dy: 0).size
             layout.minimuAlpha = 1
         }
+
+        iPageViewController.drawer = ExtendedDotDrawer(numberOfPages: 3, space: 8, raduis: 8, height: 8, width: 8, currentItem: 0, dotsColor: Constants.KColors.KCurrentPageColor, isBordered: false, borderColor: .clear, borderWidth: 0)
+        
 
         iMoneySpentView.layer.cornerRadius = 12
         iMonthView.layer.cornerRadius = 15
@@ -103,7 +108,7 @@ class FirstViewController: UIViewController {
 
 extension FirstViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return accountDetails?.count ?? 0
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -160,5 +165,18 @@ extension FirstViewController: UIViewControllerTransitioningDelegate {
 
         animator = ViewAnimator(type: .dismiss, firstViewController: self, secondViewController: secondViewController, selectedCellImageViewSnapshot: selectedCellImageViewSnapshot)
         return animator
+    }
+}
+
+// MARK: - PageView controller method
+
+extension FirstViewController {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let offSet = iCollectionView.contentOffset.x
+        let width = iCollectionView.frame.width
+
+        print(offSet)
+
+        iPageViewController.setCurrentItem(offset: CGFloat(offSet), width: CGFloat(width))
     }
 }

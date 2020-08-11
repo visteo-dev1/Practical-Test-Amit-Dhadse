@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "UPCarouselFlowLayout.h"
 
-FOUNDATION_EXPORT double UPCarouselFlowLayoutVersionNumber;
-FOUNDATION_EXPORT const unsigned char UPCarouselFlowLayoutVersionString[];
+FOUNDATION_EXPORT double AdvancedPageControlVersionNumber;
+FOUNDATION_EXPORT const unsigned char AdvancedPageControlVersionString[];
 

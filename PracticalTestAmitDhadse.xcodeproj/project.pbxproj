@@ -22,6 +22,9 @@
 		9C35DD0C24E2A088009B77EB /* MoneySpentViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */; };
 		9C35DD0F24E2B9AD009B77EB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD0E24E2B9AD009B77EB /* TabBarView.swift */; };
 		9C35DD1124E2B9C5009B77EB /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DD1024E2B9C5009B77EB /* TabBarView.xib */; };
+		9C35DD1424E2F181009B77EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD1324E2F181009B77EB /* Extensions.swift */; };
+		9C35DD1624E2F1E9009B77EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD1524E2F1E9009B77EB /* Constants.swift */; };
+		9C35DD1824E31346009B77EB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD1724E31346009B77EB /* Utils.swift */; };
 		9C4C6F3B24E125DB00A95634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */; };
 		9C4C6F3D24E125DB00A95634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */; };
 		9C4C6F3F24E125DB00A95634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3E24E125DB00A95634 /* ViewController.swift */; };
@@ -51,6 +54,9 @@
 		9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneySpentViewContainerView.swift; sourceTree = "<group>"; };
 		9C35DD0E24E2B9AD009B77EB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		9C35DD1024E2B9C5009B77EB /* TabBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarView.xib; sourceTree = "<group>"; };
+		9C35DD1324E2F181009B77EB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9C35DD1524E2F1E9009B77EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C35DD1724E31346009B77EB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		9C4C6F3724E125DB00A95634 /* PracticalTestAmitDhadse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticalTestAmitDhadse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +95,7 @@
 		9C35DCE224E23C19009B77EB /* ApprochTwo */ = {
 			isa = PBXGroup;
 			children = (
+				9C35DD1224E2F16D009B77EB /* Helper */,
 				9C35DD0D24E2B7AF009B77EB /* TabBar */,
 				9C35DD0424E29DC9009B77EB /* MoneySpentView */,
 				9C35DCFF24E28C44009B77EB /* TableCell */,
@@ -152,6 +159,16 @@
 				9C35DD1024E2B9C5009B77EB /* TabBarView.xib */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		9C35DD1224E2F16D009B77EB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DD1324E2F181009B77EB /* Extensions.swift */,
+				9C35DD1524E2F1E9009B77EB /* Constants.swift */,
+				9C35DD1724E31346009B77EB /* Utils.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		9C4C6F2E24E125DB00A95634 = {
@@ -354,9 +371,12 @@
 				9C4C6F3D24E125DB00A95634 /* SceneDelegate.swift in Sources */,
 				9C35DD0C24E2A088009B77EB /* MoneySpentViewContainerView.swift in Sources */,
 				9C35DCE124E1B781009B77EB /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				9C35DD1624E2F1E9009B77EB /* Constants.swift in Sources */,
 				9C35DCEE24E23F19009B77EB /* AccountCardCellCollectionViewCell.swift in Sources */,
+				9C35DD1824E31346009B77EB /* Utils.swift in Sources */,
 				9C35DCF424E24BE6009B77EB /* ViewAnimator.swift in Sources */,
 				9C4C6F5724E12B9000A95634 /* AccountTableViewCell.swift in Sources */,
+				9C35DD1424E2F181009B77EB /* Extensions.swift in Sources */,
 				9C35DCFE24E27176009B77EB /* Model.swift in Sources */,
 				9C4C6F5324E12B7600A95634 /* AccountSummaryCollectionViewCell.swift in Sources */,
 				9C35DD0224E28C82009B77EB /* AccountDetailsTableViewCell.swift in Sources */,

@@ -1,20 +1,20 @@
 PODS:
+  - AdvancedPageControl (0.1.4)
   - MMBannerLayout (5.0.8)
-  - UPCarouselFlowLayout (1.1.2)
 
 DEPENDENCIES:
+  - AdvancedPageControl
   - MMBannerLayout
-  - UPCarouselFlowLayout
 
 SPEC REPOS:
   trunk:
+    - AdvancedPageControl
     - MMBannerLayout
-    - UPCarouselFlowLayout
 
 SPEC CHECKSUMS:
+  AdvancedPageControl: 2bb63992260869ef665e47da39001a432fb48c49
   MMBannerLayout: edc9bcf9826e066c482cb739d52d875eb406b199
-  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
 
-PODFILE CHECKSUM: 1f7d0186994f1cc7f31b21239a372b9853f6e32f
+PODFILE CHECKSUM: dc973bf506ba32c86b6dbf9879ae96eb48a18325
 
 COCOAPODS: 1.9.1

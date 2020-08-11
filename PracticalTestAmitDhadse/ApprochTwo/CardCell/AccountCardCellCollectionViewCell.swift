@@ -25,6 +25,7 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
     @IBOutlet var iIncomeAmountLabel: UILabel!
     @IBOutlet var iProgressViewWidthConstraint: NSLayoutConstraint!
     @IBOutlet var iBrandImageWidthConstraints: NSLayoutConstraint!
+    @IBOutlet var iBrandImageViewLeadingContrants: NSLayoutConstraint!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -34,19 +35,24 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
         iIncomeProgressView.layer.cornerRadius = 5
         iBillsDotView.layer.cornerRadius = iBillsDotView.frame.width / 2
         iCashDotView.layer.cornerRadius = iCashDotView.frame.width / 2
+        iBrandImageView.setShadowBorder()
     }
 
     func RefreshUI(aType: AccountType, aDetails: Details) {
         let spentValue = Float(aDetails.spentAmount?.replacingOccurrences(of: "$", with: "") ?? "0")!
         iSpentProgressView.progress = spentValue
+        
+        
         let incomeValue = Float(aDetails.incomeAmount?.replacingOccurrences(of: "$", with: "") ?? "0")!
         iIncomeProgressView.progress = incomeValue
         iProgressViewWidthConstraint.constant = iIncomeProgressView.bounds.width * CGFloat(spentValue / incomeValue)
 
         iBrandName.text = aDetails.title
         iMoneyLabel.text = aDetails.balance
-        iSpentAmountLabel.text = aDetails.spentAmount
-        iIncomeAmountLabel.text = aDetails.incomeAmount
+        iSpentAmountLabel.attributedText = Utils.sharedInstance.getAttributtedText(aTextOne: aDetails.spentAmount ?? "", aTextTwo: " Spent", aColor: .white)
+        
+        
+        iIncomeAmountLabel.attributedText =  Utils.sharedInstance.getAttributtedText(aTextOne: aDetails.incomeAmount ?? "", aTextTwo: " Income", aColor: .white)
         if aDetails.time == "" {
             iRefreshViewContainer.isHidden = true
         } else {
@@ -57,6 +63,7 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
         switch aType {
         case .allAccount:
             iBrandImageWidthConstraints.constant = 0
+            iBrandImageViewLeadingContrants.constant = 0
             iBrandImageView?.isHidden = true
             iGradientImageView.image = UIImage(named: "BlueGradient")
             iBrandName.textColor = UIColor.white
@@ -67,6 +74,7 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
             iAvailableBalanceLabel.textColor = UIColor.white
         case .westpac:
             iBrandImageWidthConstraints.constant = 20
+            iBrandImageViewLeadingContrants.constant = 8
             iBrandImageView?.isHidden = false
             iBrandImageView?.image = UIImage(named: "BrandOne")
             iGradientImageView.image = UIImage(named: "White")
@@ -74,10 +82,11 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
             iMoneyLabel.textColor = UIColor.black
             iSpentAmountLabel.textColor = UIColor.black
             iIncomeAmountLabel.textColor = UIColor.black
-            iTimeLabel.textColor = UIColor.black
+            iTimeLabel.textColor = UIColor.lightGray
             iAvailableBalanceLabel.textColor = UIColor.black
         case .commbank:
             iBrandImageWidthConstraints.constant = 20
+            iBrandImageViewLeadingContrants.constant = 8
             iBrandImageView?.isHidden = false
             iBrandImageView?.image = UIImage(named: "BrandTwo")
             iGradientImageView.image = UIImage(named: "White")
@@ -85,7 +94,7 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
             iMoneyLabel.textColor = UIColor.black
             iSpentAmountLabel.textColor = UIColor.black
             iIncomeAmountLabel.textColor = UIColor.black
-            iTimeLabel.textColor = UIColor.black
+            iTimeLabel.textColor = UIColor.lightGray
             iAvailableBalanceLabel.textColor = UIColor.black
         default:
             print("default")

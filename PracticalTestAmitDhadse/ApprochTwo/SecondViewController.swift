@@ -64,6 +64,12 @@ extension SecondViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "AccountDetailsTableViewCellIdentifier", for: indexPath) as? AccountDetailsTableViewCell else { fatalError("Unable to create cell") }
 
         cell.selectionStyle = .none
+        
+        if indexPath.row == 0 {
+            cell.iAvailableBalanceLabel.isHidden = false
+        } else {
+            cell.iAvailableBalanceLabel.isHidden = true
+        }
 
         if let cardDetails = iDetails {
             if let cardType = iCardType {
