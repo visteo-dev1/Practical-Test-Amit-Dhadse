@@ -6,7 +6,6 @@
 //  Copyright © 2020 Amit Dhadse. All rights reserved.
 //
 
-import MMBannerLayout
 import UIKit
 
 class ViewController: UIViewController {
@@ -17,7 +16,9 @@ class ViewController: UIViewController {
     @IBOutlet var iBottomBarView: UIView!
     @IBOutlet var iCollectionViewContainerHeightLayout: NSLayoutConstraint!
 
-    let customCollectionLayout = MMBannerLayout()
+    //let flowLayout = UICollectionViewFlowLayout()
+    //let screenSize = UIScreen.main.bounds
+    //let customCollectionLayout = MMBannerLayout()
     var iflag: Bool = false
 
     override func viewDidLoad() {
@@ -32,8 +33,14 @@ class ViewController: UIViewController {
         // Register Collection cell
         iCollectionView.register(UINib(nibName: "AccountSummaryCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "AccountSummaryCellIdentifier")
 
-        iCollectionView.collectionViewLayout = customCollectionLayout
-        collapseCollectionLayout()
+                
+        
+        
+//        customCollectionLayout.itemSpace = 10
+//        customCollectionLayout.itemSize = self.iCollectionView.frame.insetBy(dx: 30, dy: 100).size
+//        iCollectionView.collectionViewLayout = customCollectionLayout
+    
+        //collapseCollectionLayout()
     }
 }
 
@@ -53,13 +60,13 @@ extension ViewController: UICollectionViewDataSource {
 
         return cell
     }
+    
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        return 20
+//
+//    }
 }
 
-extension ViewController: BannerLayoutDelegate {
-    func collectionView(_ collectionView: UICollectionView, focusAt indexPath: IndexPath?) {
-        print("Focus At \(indexPath)")
-    }
-}
 
 // MARK: - Expand & Collapse methods
 
@@ -69,40 +76,41 @@ extension ViewController: AccountSummaryCollectionViewCellDelegate {
         UIView.animate(withDuration: 0.7) {
             self.view.layoutIfNeeded()
         }
-        
-        expandCollectionLayout()
+
+        //expandCollectionLayout()
     }
 
-    func collapseCollectionLayout() {
-        iCollectionViewContainerHeightLayout.constant = 204
-        UIView.animate(withDuration: 0.7) {
-            self.view.layoutIfNeeded()
-        }
-        customCollectionLayout.itemSpace = 10
-        customCollectionLayout.itemSize = iCollectionView.frame.insetBy(dx: 20, dy: 0).size
-        iCollectionView.isScrollEnabled = true
-        iBackView.isHidden = true
-        iHomeView.isHidden = false
-        iflag = false
-        
-    }
+//    func collapseCollectionLayout() {
+//        iCollectionViewContainerHeightLayout.constant = 204
+//        UIView.animate(withDuration: 0.7) {
+//            self.view.layoutIfNeeded()
+//        }
+//        customCollectionLayout.itemSpace = 10
+//        customCollectionLayout.itemSize = iCollectionView.frame.insetBy(dx: 20, dy: 0).size
+//        iCollectionView.isScrollEnabled = true
+//        iBackView.isHidden = true
+//        iHomeView.isHidden = false
+//        iflag = false
+//
+//    }
 
-    func expandCollectionLayout() {
-        customCollectionLayout.itemSpace = 10
-        customCollectionLayout.itemSize = CGSize(width: iCollectionView.frame.width - 20 , height: iCollectionViewContainerHeightLayout.constant)
-        iCollectionView.isScrollEnabled = false
-        iBackView.isHidden = false
-        iHomeView.isHidden = true
-        iflag = true
-    }
+//    func expandCollectionLayout() {
+//        customCollectionLayout.itemSpace = 10
+//        customCollectionLayout.itemSize = CGSize(width: iCollectionView.frame.width - 20 , height: iCollectionViewContainerHeightLayout.constant)
+//        iCollectionView.isScrollEnabled = false
+//        iBackView.isHidden = false
+//        iHomeView.isHidden = true
+//        iflag = true
+//    }
 }
 
 // MARK: BackButton
 
 extension ViewController {
     @IBAction func backButtonClicked() {
-        collapseCollectionLayout()
+        //collapseCollectionLayout()
     }
-    
-    
 }
+
+
+

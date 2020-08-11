@@ -3,60 +3,90 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004ABFCA17BBD61CFF8F91A636E4CB67 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD970E8B0C4C87484924321AD5B3F17 /* Array+Safe.swift */; };
-		1AEE6A65055EB57B9AB0633A13A289C0 /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D0F6297C37A03FCBA454B14F0B8C4 /* CGPoint+Distance.swift */; };
-		3936DCE421A7AEA34B827ACEE1EC0DD5 /* MMBannerLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D491BF7E7E7C75728AC5CA18745A6432 /* MMBannerLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AF08D0115673C1AD660543E94E51E15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		667B3CF01715DAD33E585CF1316CEAA6 /* Pods-PracticalTestAmitDhadse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE4D4A6534E6D332D4169098B6D794 /* Pods-PracticalTestAmitDhadse-dummy.m */; };
-		6A9BF4BA0DDB60183567EAEB6961B5CA /* MMBannerLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9415CF2730EBE427425498C7D7FA9A /* MMBannerLayout-dummy.m */; };
-		7F6E4F8EA0A15FA535F3742CC6C785F5 /* CollectionViewCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC24722C9ECEE75E7AAA9A1CD46572B /* CollectionViewCalculate.swift */; };
-		9162FA186052B01B286E3E687C11DE34 /* MMBannerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639A421D931EC34FA3CE1B9124A7E5C /* MMBannerLayout.swift */; };
+		004ABFCA17BBD61CFF8F91A636E4CB67 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FAE9A0DB3F5612B3F42C1AB991AFF1 /* Array+Safe.swift */; };
+		0A05286C03030A3D7EFE9653A7B8DC75 /* Pods-PracticalTestAmitDhadse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBE4D4A6534E6D332D4169098B6D794 /* Pods-PracticalTestAmitDhadse-dummy.m */; };
+		0EC51E75E5A2E84968EF87F9DAF677AD /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0595973D25524A008965693946175367 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEE6A65055EB57B9AB0633A13A289C0 /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B7340D3CF96651BA315ED5E6C73A0 /* CGPoint+Distance.swift */; };
+		33E2D5BEA11FB0A2E1B59835D7FB7A81 /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F08B460CD31745013F4BAD482A4D88C7 /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3936DCE421A7AEA34B827ACEE1EC0DD5 /* MMBannerLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81133FA703910B0A56D55D9CA330E1CC /* MMBannerLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F73DFCE6D2597B69982FBD8D08097F8 /* Pods-PracticalTestAmitDhadse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 746ECC692D5EAC0CD5B7797EEC0E58F7 /* Pods-PracticalTestAmitDhadse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E299995F6714C3B7E7194B3952B5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		55ED54DEB34CE4587B187FE53647734F /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B7AFD36DB3D9F5C3E7F5F272E1C283 /* UPCarouselFlowLayout.swift */; };
+		6A9BF4BA0DDB60183567EAEB6961B5CA /* MMBannerLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10879C76B72DF39564D7B724B18509F2 /* MMBannerLayout-dummy.m */; };
+		7F6E4F8EA0A15FA535F3742CC6C785F5 /* CollectionViewCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3D01AC9448181396F548781B9F514 /* CollectionViewCalculate.swift */; };
+		9162FA186052B01B286E3E687C11DE34 /* MMBannerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437D0448F36B1AECAE1D047A6643380 /* MMBannerLayout.swift */; };
+		BA57F907BCB58E9C84B4D57403799DBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BE1E457D99F0F42F1E4AB22A369C066E /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3885AAAD114FE7FE2710CA99FC2E6D0 /* UPCarouselFlowLayout-dummy.m */; };
 		BE655B2EE7E2E852C01D7137EF758982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C8DD2FE301CAD18517CD315D0C4E00B1 /* Pods-PracticalTestAmitDhadse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 746ECC692D5EAC0CD5B7797EEC0E58F7 /* Pods-PracticalTestAmitDhadse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A05207DDAC713B6A625CEFD890645FE /* PBXContainerItemProxy */ = {
+		06790629C8B66426DBE72BCB3AE0434C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C1AFA709588D0F2D2DAAFE2EC0AFA508;
 			remoteInfo = MMBannerLayout;
 		};
+		C3CCCC1B8DB809AE749FB2844C574371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E17C38B9D32C429A1EC461038461FF9;
+			remoteInfo = UPCarouselFlowLayout;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B0494CD237EFC9E9183BC3ABD1F6A8 /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		0595973D25524A008965693946175367 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		08DED5673E66F7B8D2EC5451C0022EE8 /* UPCarouselFlowLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UPCarouselFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		0EDFBDA06A53BC65BA09552995DA38D2 /* MMBannerLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMBannerLayout.debug.xcconfig; sourceTree = "<group>"; };
 		101CB312A5511F756711A956339D740B /* Pods-PracticalTestAmitDhadse-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PracticalTestAmitDhadse-acknowledgements.markdown"; sourceTree = "<group>"; };
-		17D1CF57F2A41077323B3F7ED6176490 /* MMBannerLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMBannerLayout-Info.plist"; sourceTree = "<group>"; };
+		10879C76B72DF39564D7B724B18509F2 /* MMBannerLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMBannerLayout-dummy.m"; sourceTree = "<group>"; };
+		14E459914502911D5A3D7A91FB978E08 /* UPCarouselFlowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.release.xcconfig; sourceTree = "<group>"; };
+		19DC88AA62798206777C5A96D0BFFA13 /* MMBannerLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMBannerLayout.modulemap; sourceTree = "<group>"; };
 		1A0718D8194E92752FDC2B00357BA6C4 /* Pods-PracticalTestAmitDhadse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PracticalTestAmitDhadse-acknowledgements.plist"; sourceTree = "<group>"; };
-		298D0F6297C37A03FCBA454B14F0B8C4 /* CGPoint+Distance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Distance.swift"; path = "MMBannerLayout/Classes/Extension/CGPoint+Distance.swift"; sourceTree = "<group>"; };
+		1BF3D01AC9448181396F548781B9F514 /* CollectionViewCalculate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewCalculate.swift; path = MMBannerLayout/Classes/CollectionViewCalculate.swift; sourceTree = "<group>"; };
+		207E43C7D6DC1DE919A6B160C82118B9 /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6BF6846BF0DB8F02AA9110522B8E3A /* Pods-PracticalTestAmitDhadse-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PracticalTestAmitDhadse-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3422FAF8543B442914AEC767CDC93A6A /* Pods-PracticalTestAmitDhadse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PracticalTestAmitDhadse.release.xcconfig"; sourceTree = "<group>"; };
-		4BD970E8B0C4C87484924321AD5B3F17 /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "MMBannerLayout/Classes/Extension/Array+Safe.swift"; sourceTree = "<group>"; };
-		56C232281F0BC9B2EA39B02C0EE64861 /* MMBannerLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMBannerLayout.modulemap; sourceTree = "<group>"; };
-		5D9415CF2730EBE427425498C7D7FA9A /* MMBannerLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMBannerLayout-dummy.m"; sourceTree = "<group>"; };
 		665B37DAEB1B48D3885B51D28AFAE63B /* Pods-PracticalTestAmitDhadse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PracticalTestAmitDhadse.modulemap"; sourceTree = "<group>"; };
+		69ABD240D6ACEE40532ED9879917836C /* MMBannerLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMBannerLayout-Info.plist"; sourceTree = "<group>"; };
 		746ECC692D5EAC0CD5B7797EEC0E58F7 /* Pods-PracticalTestAmitDhadse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PracticalTestAmitDhadse-umbrella.h"; sourceTree = "<group>"; };
-		7DAB248A91AE446A0DB076B25BD0F4C3 /* MMBannerLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMBannerLayout.release.xcconfig; sourceTree = "<group>"; };
 		7EEBB5898979DE73B77BA61177759A29 /* Pods_PracticalTestAmitDhadse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PracticalTestAmitDhadse.framework; path = "Pods-PracticalTestAmitDhadse.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F02B0F948F218B80FB0D4B8652BA8B8 /* Pods-PracticalTestAmitDhadse-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PracticalTestAmitDhadse-frameworks.sh"; sourceTree = "<group>"; };
+		80FAE9A0DB3F5612B3F42C1AB991AFF1 /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "MMBannerLayout/Classes/Extension/Array+Safe.swift"; sourceTree = "<group>"; };
+		81133FA703910B0A56D55D9CA330E1CC /* MMBannerLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMBannerLayout-umbrella.h"; sourceTree = "<group>"; };
+		9C9B7340D3CF96651BA315ED5E6C73A0 /* CGPoint+Distance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Distance.swift"; path = "MMBannerLayout/Classes/Extension/CGPoint+Distance.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3501CFD23045BD2660C1F7408E0519A /* MMBannerLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMBannerLayout.debug.xcconfig; sourceTree = "<group>"; };
+		B3885AAAD114FE7FE2710CA99FC2E6D0 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		B4B98352DC7A71C53BF45FBCD28A8DBC /* MMBannerLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMBannerLayout.release.xcconfig; sourceTree = "<group>"; };
+		B9B7AFD36DB3D9F5C3E7F5F272E1C283 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		C7B7254BC27B24C94971158C3F007F76 /* MMBannerLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMBannerLayout.framework; path = MMBannerLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D491BF7E7E7C75728AC5CA18745A6432 /* MMBannerLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMBannerLayout-umbrella.h"; sourceTree = "<group>"; };
-		E04DBDD608CA8290907AAA82A4A90CB2 /* MMBannerLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMBannerLayout-prefix.pch"; sourceTree = "<group>"; };
+		D159AE8CBD3EBD703FE86C619D47FD7F /* UPCarouselFlowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.debug.xcconfig; sourceTree = "<group>"; };
+		D690EF34FDA0800AE4D4ECC3738A62A2 /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
+		DF0CCD18FF9FEFE26D0530DD907AFB8A /* MMBannerLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMBannerLayout-prefix.pch"; sourceTree = "<group>"; };
 		E27F035AA1EF3A548A6CFDE3D1993D6A /* Pods-PracticalTestAmitDhadse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PracticalTestAmitDhadse.debug.xcconfig"; sourceTree = "<group>"; };
-		F639A421D931EC34FA3CE1B9124A7E5C /* MMBannerLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMBannerLayout.swift; path = MMBannerLayout/Classes/MMBannerLayout.swift; sourceTree = "<group>"; };
-		FAC24722C9ECEE75E7AAA9A1CD46572B /* CollectionViewCalculate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewCalculate.swift; path = MMBannerLayout/Classes/CollectionViewCalculate.swift; sourceTree = "<group>"; };
+		F08B460CD31745013F4BAD482A4D88C7 /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
+		F437D0448F36B1AECAE1D047A6643380 /* MMBannerLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMBannerLayout.swift; path = MMBannerLayout/Classes/MMBannerLayout.swift; sourceTree = "<group>"; };
 		FDBE4D4A6534E6D332D4169098B6D794 /* Pods-PracticalTestAmitDhadse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PracticalTestAmitDhadse-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		810E89757DF0DA1F1367E84D7D6B27DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E299995F6714C3B7E7194B3952B5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B04830374ACF2953E83E5E5A9AB2EF8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,37 +95,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D007C007D16933A6685A2BD3A5F5C53B /* Frameworks */ = {
+		B04F54634C3FC251E375AD5ABD47FCB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF08D0115673C1AD660543E94E51E15 /* Foundation.framework in Frameworks */,
+				BA57F907BCB58E9C84B4D57403799DBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17B7D90329F9B938CC6BEA81BFBC283B /* MMBannerLayout */ = {
+		117771623E3EF40F079EC1D48FFB0270 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BD970E8B0C4C87484924321AD5B3F17 /* Array+Safe.swift */,
-				298D0F6297C37A03FCBA454B14F0B8C4 /* CGPoint+Distance.swift */,
-				FAC24722C9ECEE75E7AAA9A1CD46572B /* CollectionViewCalculate.swift */,
-				F639A421D931EC34FA3CE1B9124A7E5C /* MMBannerLayout.swift */,
-				C875BBF1E212586930F74B8161BE1D1A /* Support Files */,
+				19DC88AA62798206777C5A96D0BFFA13 /* MMBannerLayout.modulemap */,
+				10879C76B72DF39564D7B724B18509F2 /* MMBannerLayout-dummy.m */,
+				69ABD240D6ACEE40532ED9879917836C /* MMBannerLayout-Info.plist */,
+				DF0CCD18FF9FEFE26D0530DD907AFB8A /* MMBannerLayout-prefix.pch */,
+				81133FA703910B0A56D55D9CA330E1CC /* MMBannerLayout-umbrella.h */,
+				0EDFBDA06A53BC65BA09552995DA38D2 /* MMBannerLayout.debug.xcconfig */,
+				B4B98352DC7A71C53BF45FBCD28A8DBC /* MMBannerLayout.release.xcconfig */,
 			);
-			name = MMBannerLayout;
-			path = MMBannerLayout;
+			name = "Support Files";
+			path = "../Target Support Files/MMBannerLayout";
 			sourceTree = "<group>";
 		};
-		56C627E1CC69DF4DF3F3034539A4F6E1 /* Products */ = {
+		47CE3C3BA8C69DEDF59374F5F6A0B456 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				C7B7254BC27B24C94971158C3F007F76 /* MMBannerLayout.framework */,
 				7EEBB5898979DE73B77BA61177759A29 /* Pods_PracticalTestAmitDhadse.framework */,
+				207E43C7D6DC1DE919A6B160C82118B9 /* UPCarouselFlowLayout.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5A791AD2CEDA0F48D3C76DE5A764B98F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D690EF34FDA0800AE4D4ECC3738A62A2 /* UPCarouselFlowLayout.modulemap */,
+				B3885AAAD114FE7FE2710CA99FC2E6D0 /* UPCarouselFlowLayout-dummy.m */,
+				08DED5673E66F7B8D2EC5451C0022EE8 /* UPCarouselFlowLayout-Info.plist */,
+				01B0494CD237EFC9E9183BC3ABD1F6A8 /* UPCarouselFlowLayout-prefix.pch */,
+				0595973D25524A008965693946175367 /* UPCarouselFlowLayout-umbrella.h */,
+				D159AE8CBD3EBD703FE86C619D47FD7F /* UPCarouselFlowLayout.debug.xcconfig */,
+				14E459914502911D5A3D7A91FB978E08 /* UPCarouselFlowLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UPCarouselFlowLayout";
 			sourceTree = "<group>";
 		};
 		64CB76DFE2D1B1D5AEF625AE0F2F46FA /* Targets Support Files */ = {
@@ -123,12 +171,17 @@
 			path = "Target Support Files/Pods-PracticalTestAmitDhadse";
 			sourceTree = "<group>";
 		};
-		A9345FE92786ED8B9F683AB3ED7FBC97 /* Pods */ = {
+		9BB737E7ECFDEB3FE17BFE62FD63BE69 /* MMBannerLayout */ = {
 			isa = PBXGroup;
 			children = (
-				17B7D90329F9B938CC6BEA81BFBC283B /* MMBannerLayout */,
+				80FAE9A0DB3F5612B3F42C1AB991AFF1 /* Array+Safe.swift */,
+				9C9B7340D3CF96651BA315ED5E6C73A0 /* CGPoint+Distance.swift */,
+				1BF3D01AC9448181396F548781B9F514 /* CollectionViewCalculate.swift */,
+				F437D0448F36B1AECAE1D047A6643380 /* MMBannerLayout.swift */,
+				117771623E3EF40F079EC1D48FFB0270 /* Support Files */,
 			);
-			name = Pods;
+			name = MMBannerLayout;
+			path = MMBannerLayout;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -139,19 +192,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C875BBF1E212586930F74B8161BE1D1A /* Support Files */ = {
+		C97DD8F687206335B755BD5EC099522E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				56C232281F0BC9B2EA39B02C0EE64861 /* MMBannerLayout.modulemap */,
-				5D9415CF2730EBE427425498C7D7FA9A /* MMBannerLayout-dummy.m */,
-				17D1CF57F2A41077323B3F7ED6176490 /* MMBannerLayout-Info.plist */,
-				E04DBDD608CA8290907AAA82A4A90CB2 /* MMBannerLayout-prefix.pch */,
-				D491BF7E7E7C75728AC5CA18745A6432 /* MMBannerLayout-umbrella.h */,
-				A3501CFD23045BD2660C1F7408E0519A /* MMBannerLayout.debug.xcconfig */,
-				7DAB248A91AE446A0DB076B25BD0F4C3 /* MMBannerLayout.release.xcconfig */,
+				9BB737E7ECFDEB3FE17BFE62FD63BE69 /* MMBannerLayout */,
+				E8AA1034DF8CDF05D2D3594B5534352D /* UPCarouselFlowLayout */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MMBannerLayout";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -159,8 +206,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A9345FE92786ED8B9F683AB3ED7FBC97 /* Pods */,
-				56C627E1CC69DF4DF3F3034539A4F6E1 /* Products */,
+				C97DD8F687206335B755BD5EC099522E /* Pods */,
+				47CE3C3BA8C69DEDF59374F5F6A0B456 /* Products */,
 				64CB76DFE2D1B1D5AEF625AE0F2F46FA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -173,14 +220,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E8AA1034DF8CDF05D2D3594B5534352D /* UPCarouselFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F08B460CD31745013F4BAD482A4D88C7 /* UPCarouselFlowLayout.h */,
+				B9B7AFD36DB3D9F5C3E7F5F272E1C283 /* UPCarouselFlowLayout.swift */,
+				5A791AD2CEDA0F48D3C76DE5A764B98F /* Support Files */,
+			);
+			name = UPCarouselFlowLayout;
+			path = UPCarouselFlowLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		917860A6D70597EF9CDD27F284CF14B3 /* Headers */ = {
+		4F9EB1A24E6EDBB5D0174A9006278A16 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8DD2FE301CAD18517CD315D0C4E00B1 /* Pods-PracticalTestAmitDhadse-umbrella.h in Headers */,
+				3F73DFCE6D2597B69982FBD8D08097F8 /* Pods-PracticalTestAmitDhadse-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD67F2CDAAAA0DD79065CD17D7F7D1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC51E75E5A2E84968EF87F9DAF677AD /* UPCarouselFlowLayout-umbrella.h in Headers */,
+				33E2D5BEA11FB0A2E1B59835D7FB7A81 /* UPCarouselFlowLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,19 +262,38 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6635F97ECB3F46BB0E8CED98106022F8 /* Pods-PracticalTestAmitDhadse */ = {
+		5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DCEEE10D69FD64FCFBE82EBAE186AF2 /* Build configuration list for PBXNativeTarget "Pods-PracticalTestAmitDhadse" */;
+			buildConfigurationList = 3917ACD9CFB3E17314D002A1170414B9 /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */;
 			buildPhases = (
-				917860A6D70597EF9CDD27F284CF14B3 /* Headers */,
-				C1A1CBC1522F5F51136AB9EE92323615 /* Sources */,
-				D007C007D16933A6685A2BD3A5F5C53B /* Frameworks */,
-				40BC3DFEEC1CEB44CFF21813E3A523AA /* Resources */,
+				7FD67F2CDAAAA0DD79065CD17D7F7D1D /* Headers */,
+				B033BBE80CE7E4504F63913CFE3F6E19 /* Sources */,
+				B04F54634C3FC251E375AD5ABD47FCB2 /* Frameworks */,
+				8F7FBC604DD7A7C90F9D4F0E7D8D1B45 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1736F95CF284441BE801C68F96DF0504 /* PBXTargetDependency */,
+			);
+			name = UPCarouselFlowLayout;
+			productName = UPCarouselFlowLayout;
+			productReference = 207E43C7D6DC1DE919A6B160C82118B9 /* UPCarouselFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6635F97ECB3F46BB0E8CED98106022F8 /* Pods-PracticalTestAmitDhadse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF9CFA01837D72EA74DE88F233624409 /* Build configuration list for PBXNativeTarget "Pods-PracticalTestAmitDhadse" */;
+			buildPhases = (
+				4F9EB1A24E6EDBB5D0174A9006278A16 /* Headers */,
+				64618599866CB86A88C765B75B5A6070 /* Sources */,
+				810E89757DF0DA1F1367E84D7D6B27DB /* Frameworks */,
+				7DCB587C503ABD5835365A010300D082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4377416610807CB75FB27D42BC9FD07 /* PBXTargetDependency */,
+				CE0D782FB3C93ABC0043A8CA174D4381 /* PBXTargetDependency */,
 			);
 			name = "Pods-PracticalTestAmitDhadse";
 			productName = "Pods-PracticalTestAmitDhadse";
@@ -242,7 +328,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -250,18 +336,19 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 56C627E1CC69DF4DF3F3034539A4F6E1 /* Products */;
+			productRefGroup = 47CE3C3BA8C69DEDF59374F5F6A0B456 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C1AFA709588D0F2D2DAAFE2EC0AFA508 /* MMBannerLayout */,
 				6635F97ECB3F46BB0E8CED98106022F8 /* Pods-PracticalTestAmitDhadse */,
+				5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40BC3DFEEC1CEB44CFF21813E3A523AA /* Resources */ = {
+		7DCB587C503ABD5835365A010300D082 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,14 +362,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F7FBC604DD7A7C90F9D4F0E7D8D1B45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1A1CBC1522F5F51136AB9EE92323615 /* Sources */ = {
+		64618599866CB86A88C765B75B5A6070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667B3CF01715DAD33E585CF1316CEAA6 /* Pods-PracticalTestAmitDhadse-dummy.m in Sources */,
+				0A05286C03030A3D7EFE9653A7B8DC75 /* Pods-PracticalTestAmitDhadse-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B033BBE80CE7E4504F63913CFE3F6E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1E457D99F0F42F1E4AB22A369C066E /* UPCarouselFlowLayout-dummy.m in Sources */,
+				55ED54DEB34CE4587B187FE53647734F /* UPCarouselFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,15 +404,57 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1736F95CF284441BE801C68F96DF0504 /* PBXTargetDependency */ = {
+		A4377416610807CB75FB27D42BC9FD07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMBannerLayout;
 			target = C1AFA709588D0F2D2DAAFE2EC0AFA508 /* MMBannerLayout */;
-			targetProxy = 4A05207DDAC713B6A625CEFD890645FE /* PBXContainerItemProxy */;
+			targetProxy = 06790629C8B66426DBE72BCB3AE0434C /* PBXContainerItemProxy */;
+		};
+		CE0D782FB3C93ABC0043A8CA174D4381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPCarouselFlowLayout;
+			target = 5E17C38B9D32C429A1EC461038461FF9 /* UPCarouselFlowLayout */;
+			targetProxy = C3CCCC1B8DB809AE749FB2844C574371 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00CED917979CF52C2B7E4137D6D6A21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E459914502911D5A3D7A91FB978E08 /* UPCarouselFlowLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -370,43 +515,7 @@
 			};
 			name = Release;
 		};
-		7BEE60F309AE3E7268AC700C710E1532 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DAB248A91AE446A0DB076B25BD0F4C3 /* MMBannerLayout.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MMBannerLayout/MMBannerLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMBannerLayout/MMBannerLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MMBannerLayout/MMBannerLayout.modulemap";
-				PRODUCT_MODULE_NAME = MMBannerLayout;
-				PRODUCT_NAME = MMBannerLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8D39EF11A06E14DE025A1BC70B08A946 /* Debug */ = {
+		143E92692901ED70ECA340687CC22EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E27F035AA1EF3A548A6CFDE3D1993D6A /* Pods-PracticalTestAmitDhadse.debug.xcconfig */;
 			buildSettings = {
@@ -444,7 +553,43 @@
 			};
 			name = Debug;
 		};
-		C48E65E4565F1200E518522AB93B2331 /* Release */ = {
+		7BEE60F309AE3E7268AC700C710E1532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B98352DC7A71C53BF45FBCD28A8DBC /* MMBannerLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMBannerLayout/MMBannerLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMBannerLayout/MMBannerLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MMBannerLayout/MMBannerLayout.modulemap";
+				PRODUCT_MODULE_NAME = MMBannerLayout;
+				PRODUCT_NAME = MMBannerLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70E121FAED1B9DD3EAEE3561A4FEB16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3422FAF8543B442914AEC767CDC93A6A /* Pods-PracticalTestAmitDhadse.release.xcconfig */;
 			buildSettings = {
@@ -547,9 +692,44 @@
 			};
 			name = Debug;
 		};
+		F81296678E8641D8CD0BB717297CFC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D159AE8CBD3EBD703FE86C619D47FD7F /* UPCarouselFlowLayout.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F86E1605F81D1C6CA6EFD46BE6B53028 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3501CFD23045BD2660C1F7408E0519A /* MMBannerLayout.debug.xcconfig */;
+			baseConfigurationReference = 0EDFBDA06A53BC65BA09552995DA38D2 /* MMBannerLayout.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -585,11 +765,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DCEEE10D69FD64FCFBE82EBAE186AF2 /* Build configuration list for PBXNativeTarget "Pods-PracticalTestAmitDhadse" */ = {
+		3917ACD9CFB3E17314D002A1170414B9 /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D39EF11A06E14DE025A1BC70B08A946 /* Debug */,
-				C48E65E4565F1200E518522AB93B2331 /* Release */,
+				F81296678E8641D8CD0BB717297CFC17 /* Debug */,
+				00CED917979CF52C2B7E4137D6D6A21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -608,6 +788,15 @@
 			buildConfigurations = (
 				F86E1605F81D1C6CA6EFD46BE6B53028 /* Debug */,
 				7BEE60F309AE3E7268AC700C710E1532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF9CFA01837D72EA74DE88F233624409 /* Build configuration list for PBXNativeTarget "Pods-PracticalTestAmitDhadse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143E92692901ED70ECA340687CC22EFF /* Debug */,
+				A70E121FAED1B9DD3EAEE3561A4FEB16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

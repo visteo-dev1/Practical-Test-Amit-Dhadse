@@ -3,11 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		287F5C60023854C41142A78A /* Pods_PracticalTestAmitDhadse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4145DEF7F9C659C7F26C1B06 /* Pods_PracticalTestAmitDhadse.framework */; };
+		9C35DCE124E1B781009B77EB /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DCE024E1B781009B77EB /* AlignedCollectionViewFlowLayout.swift */; };
+		9C35DCE424E23C52009B77EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DCE324E23C52009B77EB /* FirstViewController.swift */; };
+		9C35DCE624E23C85009B77EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DCE524E23C85009B77EB /* SecondViewController.swift */; };
+		9C35DCEE24E23F19009B77EB /* AccountCardCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DCEC24E23F19009B77EB /* AccountCardCellCollectionViewCell.swift */; };
+		9C35DCEF24E23F19009B77EB /* AccountCardCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DCED24E23F19009B77EB /* AccountCardCellCollectionViewCell.xib */; };
+		9C35DCF424E24BE6009B77EB /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DCF324E24BE6009B77EB /* ViewAnimator.swift */; };
+		9C35DCFD24E27176009B77EB /* AccountDate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DCFB24E27176009B77EB /* AccountDate.json */; };
+		9C35DCFE24E27176009B77EB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DCFC24E27176009B77EB /* Model.swift */; };
+		9C35DD0224E28C82009B77EB /* AccountDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD0024E28C82009B77EB /* AccountDetailsTableViewCell.swift */; };
+		9C35DD0324E28C82009B77EB /* AccountDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DD0124E28C82009B77EB /* AccountDetailsTableViewCell.xib */; };
+		9C35DD0B24E2A088009B77EB /* MoneySpentViewContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35DD0924E2A088009B77EB /* MoneySpentViewContainerView.xib */; };
+		9C35DD0C24E2A088009B77EB /* MoneySpentViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */; };
 		9C4C6F3B24E125DB00A95634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */; };
 		9C4C6F3D24E125DB00A95634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */; };
 		9C4C6F3F24E125DB00A95634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C6F3E24E125DB00A95634 /* ViewController.swift */; };
@@ -23,6 +35,18 @@
 /* Begin PBXFileReference section */
 		4145DEF7F9C659C7F26C1B06 /* Pods_PracticalTestAmitDhadse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticalTestAmitDhadse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98487FD4372D37DA5F1D10FE /* Pods-PracticalTestAmitDhadse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticalTestAmitDhadse.debug.xcconfig"; path = "Target Support Files/Pods-PracticalTestAmitDhadse/Pods-PracticalTestAmitDhadse.debug.xcconfig"; sourceTree = "<group>"; };
+		9C35DCE024E1B781009B77EB /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		9C35DCE324E23C52009B77EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9C35DCE524E23C85009B77EB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9C35DCEC24E23F19009B77EB /* AccountCardCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		9C35DCED24E23F19009B77EB /* AccountCardCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCardCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		9C35DCF324E24BE6009B77EB /* ViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimator.swift; sourceTree = "<group>"; };
+		9C35DCFB24E27176009B77EB /* AccountDate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AccountDate.json; sourceTree = "<group>"; };
+		9C35DCFC24E27176009B77EB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9C35DD0024E28C82009B77EB /* AccountDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9C35DD0124E28C82009B77EB /* AccountDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		9C35DD0924E2A088009B77EB /* MoneySpentViewContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneySpentViewContainerView.xib; sourceTree = "<group>"; };
+		9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneySpentViewContainerView.swift; sourceTree = "<group>"; };
 		9C4C6F3724E125DB00A95634 /* PracticalTestAmitDhadse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticalTestAmitDhadse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +82,72 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9C35DCE224E23C19009B77EB /* ApprochTwo */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DD0D24E2B7AF009B77EB /* TabBar */,
+				9C35DD0424E29DC9009B77EB /* MoneySpentView */,
+				9C35DCFF24E28C44009B77EB /* TableCell */,
+				9C35DCFA24E2716E009B77EB /* Data */,
+				9C35DCF024E24522009B77EB /* ViewControllerAnimator */,
+				9C35DCE724E23ECC009B77EB /* CardCell */,
+				9C35DCE324E23C52009B77EB /* FirstViewController.swift */,
+				9C35DCE524E23C85009B77EB /* SecondViewController.swift */,
+			);
+			path = ApprochTwo;
+			sourceTree = "<group>";
+		};
+		9C35DCE724E23ECC009B77EB /* CardCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DCEC24E23F19009B77EB /* AccountCardCellCollectionViewCell.swift */,
+				9C35DCED24E23F19009B77EB /* AccountCardCellCollectionViewCell.xib */,
+			);
+			path = CardCell;
+			sourceTree = "<group>";
+		};
+		9C35DCF024E24522009B77EB /* ViewControllerAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DCF324E24BE6009B77EB /* ViewAnimator.swift */,
+			);
+			path = ViewControllerAnimator;
+			sourceTree = "<group>";
+		};
+		9C35DCFA24E2716E009B77EB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DCFB24E27176009B77EB /* AccountDate.json */,
+				9C35DCFC24E27176009B77EB /* Model.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9C35DCFF24E28C44009B77EB /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DD0024E28C82009B77EB /* AccountDetailsTableViewCell.swift */,
+				9C35DD0124E28C82009B77EB /* AccountDetailsTableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		9C35DD0424E29DC9009B77EB /* MoneySpentView */ = {
+			isa = PBXGroup;
+			children = (
+				9C35DD0A24E2A088009B77EB /* MoneySpentViewContainerView.swift */,
+				9C35DD0924E2A088009B77EB /* MoneySpentViewContainerView.xib */,
+			);
+			path = MoneySpentView;
+			sourceTree = "<group>";
+		};
+		9C35DD0D24E2B7AF009B77EB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		9C4C6F2E24E125DB00A95634 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +169,7 @@
 		9C4C6F3924E125DB00A95634 /* PracticalTestAmitDhadse */ = {
 			isa = PBXGroup;
 			children = (
+				9C35DCE224E23C19009B77EB /* ApprochTwo */,
 				9C4C6F4E24E12A0B00A95634 /* CardView */,
 				9C4C6F3A24E125DB00A95634 /* AppDelegate.swift */,
 				9C4C6F3C24E125DB00A95634 /* SceneDelegate.swift */,
@@ -105,6 +196,7 @@
 			children = (
 				9C4C6F5524E12B9000A95634 /* AccountTableViewCell.swift */,
 				9C4C6F5624E12B9000A95634 /* AccountTableViewCell.xib */,
+				9C35DCE024E1B781009B77EB /* AlignedCollectionViewFlowLayout.swift */,
 			);
 			path = TableCell;
 			sourceTree = "<group>";
@@ -124,7 +216,6 @@
 				98487FD4372D37DA5F1D10FE /* Pods-PracticalTestAmitDhadse.debug.xcconfig */,
 				FECAFC0B90493BA4E16178F1 /* Pods-PracticalTestAmitDhadse.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,10 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C4C6F4724E125DC00A95634 /* LaunchScreen.storyboard in Resources */,
+				9C35DCFD24E27176009B77EB /* AccountDate.json in Resources */,
 				9C4C6F5B24E12F8C00A95634 /* Main.storyboard in Resources */,
+				9C35DCEF24E23F19009B77EB /* AccountCardCellCollectionViewCell.xib in Resources */,
 				9C4C6F5824E12B9000A95634 /* AccountTableViewCell.xib in Resources */,
 				9C4C6F4424E125DC00A95634 /* Assets.xcassets in Resources */,
+				9C35DD0324E28C82009B77EB /* AccountDetailsTableViewCell.xib in Resources */,
 				9C4C6F5424E12B7600A95634 /* AccountSummaryCollectionViewCell.xib in Resources */,
+				9C35DD0B24E2A088009B77EB /* MoneySpentViewContainerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,11 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C35DCE624E23C85009B77EB /* SecondViewController.swift in Sources */,
 				9C4C6F3F24E125DB00A95634 /* ViewController.swift in Sources */,
 				9C4C6F3B24E125DB00A95634 /* AppDelegate.swift in Sources */,
 				9C4C6F3D24E125DB00A95634 /* SceneDelegate.swift in Sources */,
+				9C35DD0C24E2A088009B77EB /* MoneySpentViewContainerView.swift in Sources */,
+				9C35DCE124E1B781009B77EB /* AlignedCollectionViewFlowLayout.swift in Sources */,
+				9C35DCEE24E23F19009B77EB /* AccountCardCellCollectionViewCell.swift in Sources */,
+				9C35DCF424E24BE6009B77EB /* ViewAnimator.swift in Sources */,
 				9C4C6F5724E12B9000A95634 /* AccountTableViewCell.swift in Sources */,
+				9C35DCFE24E27176009B77EB /* Model.swift in Sources */,
 				9C4C6F5324E12B7600A95634 /* AccountSummaryCollectionViewCell.swift in Sources */,
+				9C35DD0224E28C82009B77EB /* AccountDetailsTableViewCell.swift in Sources */,
+				9C35DCE424E23C52009B77EB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@ target 'PracticalTestAmitDhadse' do
 
   # Pods for PracticalTestAmitDhadse
 
+ pod "UPCarouselFlowLayout"
  pod "MMBannerLayout"
 
 end
