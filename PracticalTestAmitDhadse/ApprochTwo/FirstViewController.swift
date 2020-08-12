@@ -47,7 +47,6 @@ class FirstViewController: UIViewController {
         }
 
         iPageViewController.drawer = ExtendedDotDrawer(numberOfPages: 3, space: 8, raduis: 8, height: 8, width: 8, currentItem: 0, dotsColor: Constants.KColors.KCurrentPageColor, isBordered: false, borderColor: .clear, borderWidth: 0)
-        
 
         iMoneySpentView.layer.cornerRadius = 12
         iMonthView.layer.cornerRadius = 15
@@ -124,7 +123,7 @@ extension FirstViewController: UICollectionViewDataSource, UICollectionViewDeleg
         case 2:
             cell.RefreshUI(aType: .commbank, aDetails: (accountDetails?[indexPath.row].commbank?.first)!)
         default:
-            print("default")
+            print("")
         }
 
         return cell
@@ -174,9 +173,6 @@ extension FirstViewController {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offSet = iCollectionView.contentOffset.x
         let width = iCollectionView.frame.width
-
-        print(offSet)
-
         iPageViewController.setCurrentItem(offset: CGFloat(offSet), width: CGFloat(width))
     }
 }
