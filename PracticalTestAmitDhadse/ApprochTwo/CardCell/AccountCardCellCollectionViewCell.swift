@@ -97,7 +97,7 @@ class AccountCardCellCollectionViewCell: UICollectionViewCell {
             iTimeLabel.textColor = UIColor.lightGray
             iAvailableBalanceLabel.textColor = UIColor.black
         default:
-            print("default")
+            print("")
         }
     }
 }

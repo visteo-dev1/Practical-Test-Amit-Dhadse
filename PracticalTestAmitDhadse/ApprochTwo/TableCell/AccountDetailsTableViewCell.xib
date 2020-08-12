@@ -83,7 +83,7 @@
                         <color key="textColor" red="0.95686274510000002" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="QeJ-Df-LiX">
+                    <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QeJ-Df-LiX">
                         <rect key="frame" x="16" y="108" width="60" height="8"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="8" id="e6q-nZ-0zD"/>

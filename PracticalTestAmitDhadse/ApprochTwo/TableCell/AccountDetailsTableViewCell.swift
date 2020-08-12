@@ -9,24 +9,23 @@
 import UIKit
 
 class AccountDetailsTableViewCell: UITableViewCell {
+    @IBOutlet var iBrandImageView: UIImageView!
+    @IBOutlet var iRefreshViewContainer: UIView!
+    @IBOutlet var iBrandName: UILabel!
+    @IBOutlet var iTimeLabel: UILabel!
+    @IBOutlet var iMoneyLabel: UILabel!
+    @IBOutlet var iAvailableBalanceLabel: UILabel!
+    @IBOutlet var iBillsDotView: UIView!
+    @IBOutlet var iCashDotView: UIView!
+    @IBOutlet var iSpentProgressView: UIProgressView!
+    @IBOutlet var iIncomeProgressView: UIProgressView!
+    @IBOutlet var iSpentAmountLabel: UILabel!
+    @IBOutlet var iIncomeAmountLabel: UILabel!
+    @IBOutlet var iProgressViewWidthConstraint: NSLayoutConstraint!
+    @IBOutlet var iBrandImageWidthConstraints: NSLayoutConstraint!
+    @IBOutlet var iBrandImageViewLeadingContrants: NSLayoutConstraint!
+    @IBOutlet var iIncomeProgressViewLeadingConstraint: NSLayoutConstraint!
 
-    @IBOutlet weak var iBrandImageView: UIImageView!
-    @IBOutlet weak var iRefreshViewContainer: UIView!
-    @IBOutlet weak var iBrandName: UILabel!
-    @IBOutlet weak var iTimeLabel: UILabel!
-    @IBOutlet weak var iMoneyLabel: UILabel!
-    @IBOutlet weak var iAvailableBalanceLabel: UILabel!
-    @IBOutlet weak var iBillsDotView: UIView!
-    @IBOutlet weak var iCashDotView: UIView!
-    @IBOutlet weak var iSpentProgressView: UIProgressView!
-    @IBOutlet weak var iIncomeProgressView: UIProgressView!
-    @IBOutlet weak var iSpentAmountLabel: UILabel!
-    @IBOutlet weak var iIncomeAmountLabel: UILabel!
-    @IBOutlet weak var iProgressViewWidthConstraint: NSLayoutConstraint!
-    @IBOutlet weak var iBrandImageWidthConstraints: NSLayoutConstraint!
-    @IBOutlet weak var iBrandImageViewLeadingContrants: NSLayoutConstraint!
-    @IBOutlet weak var iIncomeProgressViewLeadingConstraint: NSLayoutConstraint!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -41,24 +40,25 @@ class AccountDetailsTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    
-    
-    
+
     func RefreshUI(aType: AccountType, aDetails: Details) {
         let spentValue = Float(aDetails.spentAmount?.replacingOccurrences(of: "$", with: "") ?? "0")!
+
         if spentValue == 0 {
             iIncomeProgressViewLeadingConstraint.constant = 0
         } else {
             iIncomeProgressViewLeadingConstraint.constant = 20
         }
-        UIView.animate(withDuration: 2.0) {
+
+        UIView.animate(withDuration: 1.5) {
             self.iSpentProgressView.setProgress(spentValue, animated: true)
         }
-        
+
         let incomeValue = Float(aDetails.incomeAmount?.replacingOccurrences(of: "$", with: "") ?? "0")!
-        UIView.animate(withDuration: 2.0) {
+        UIView.animate(withDuration: 1.5) {
             self.iIncomeProgressView.setProgress(incomeValue, animated: true)
         }
+
         iProgressViewWidthConstraint.constant = iIncomeProgressView.bounds.width * CGFloat(spentValue / incomeValue)
 
         iBrandName.text = aDetails.title
@@ -95,12 +95,7 @@ class AccountDetailsTableViewCell: UITableViewCell {
             iTimeLabel.textColor = UIColor.lightGray
             iAvailableBalanceLabel.textColor = UIColor.black
         default:
-            print("default")
+            print("")
         }
     }
-    
-    
 }
-
-
-
